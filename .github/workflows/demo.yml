@@ -43,6 +43,6 @@ jobs:
         with:
           name: dist-files_website-build
       - name: Output build files
-        run: ls  dist
+        run: ls  -latr
       - name: Deploy
         run: echo "Deploying..."
